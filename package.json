@@ -1,0 +1,20 @@
+{
+  "name": "simple-example",
+  "version": "1.0.0",
+  "description": "Just a basic HTML site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && mkdir -p build && cp -r src/* build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biilmann/basic-html-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biilmann/basic-html-site/issues"
+  },
+  "homepage": "https://github.com/biilmann/basic-html-site#readme"
+}
